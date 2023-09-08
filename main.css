@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(120, 120, 149);
+    padding: 50px;
+}
+#new-task-input{
+    height: 50px;
+    width: 25%;
+    padding: 5px;
+    border: inset;
+    border-color: black;
+    border-radius: 15px;
+    font-size: 20px;
+}
+#new-task-submit{
+    height: 50px;
+    width: 5%;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: darkslateblue;
+    margin-left: 20px;
+    transition: 0.4s;
+    font-size: 20px;
+}
+#new-task-submit:hover {
+    color: white;
+    background-color: #0f0f0f
+}
+.task-list{
+    background-color: white;
+    height: 400px;
+    width: 40%;
+    padding: 10px;
+    margin-top: 10px;
+    border:inset;
+    border-color: black;
+    border-radius: 10px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;   
+    
+}
+.text{
+    height: 27px;
+    width: 150%;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+.actions{
+    display: flex; 
+}
+.edit{
+    margin: 5px;
+    border-radius: 5px;
+}
+.delete{
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.edit:hover {
+    color: white;
+    background-color: #062f42
+}
+
+.delete:hover {
+    color: white;
+    background-color: #570202
+}
